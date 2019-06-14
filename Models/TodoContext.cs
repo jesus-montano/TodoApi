@@ -9,6 +9,7 @@ namespace TodoApi.Models
         {
         }
 
-        public DbSet<TodoItem> TodoItems { get; set; }
+        public DbSet<Comments> Comments { get; set; }
+         
     }
 }
